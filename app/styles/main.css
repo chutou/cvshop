@@ -1,4 +1,79 @@
 @charset "utf-8";
+.agent-item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: flex-start;
+  align-self: center;
+  padding: 20px 24px;
+  border-bottom: 1px solid #ddd;
+  font-size: 30px;
+}
+.agent-item .labels {
+  width: 180px;
+  color: #202020;
+}
+.agent-item .flex {
+  flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.agent-item .flex input[type=text],
+.agent-item .flex input[type=password] {
+  flex: 1;
+  border: none;
+}
+.agent-item .flex .sub-flex {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex: 1;
+}
+.agent-item .flex .sub-flex input[type=radio] {
+  margin-right: 10px;
+}
+.agent-item .flex.flex-center {
+  justify-content: center;
+  text-align: center;
+}
+.agent-item .flex.flex-center .sub-flex {
+  justify-content: center;
+}
+.agent-item:last-child {
+  border: none;
+}
+/*
+* login.html
+* 登录
+*/
+.quick-login {
+  padding-top: 50px;
+}
+.quick-login .icon-qq {
+  display: inline-block;
+  width: 68px;
+  height: 68px;
+  background: url("../images/icon-qq.png") no-repeat left top;
+}
+.quick-login .icon-webchat {
+  display: inline-block;
+  width: 68px;
+  height: 68px;
+  background: url("../images/icon-webchat.png") no-repeat left top;
+}
+.quick-login .icon-webo {
+  display: inline-block;
+  width: 68px;
+  height: 68px;
+  background: url("../images/icon-webo.png") no-repeat left top;
+}
 /* 重置样式 */
 * {
   -moz-box-sizing: border-box;
@@ -15,12 +90,6 @@ dd,
 ul,
 ol,
 li,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
 pre,
 code,
 form,
@@ -252,12 +321,6 @@ dd,
 ul,
 ol,
 li,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
 pre,
 code,
 form,
@@ -296,15 +359,6 @@ li {
 caption,
 th {
   text-align: left;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-size: 100%;
-  font-weight: normal;
 }
 q:before,
 q:after {
@@ -577,7 +631,7 @@ u {
  +------------------------------------------------------------------------------
  * 网站整体颜色总汇
  +------------------------------------------------------------------------------
- * @codex  颜色:使用颜色的名称或者16进制代码,如 
+ * @codex  颜色:使用颜色的名称或者16进制代码,如
  * @subpackage  RBAC
  +------------------------------------------------------------------------------
  */
@@ -591,7 +645,7 @@ u {
   color: #999;
 }
 .color-blue {
-  color: #2d84d1;
+  color: #2b9df2;
 }
 a.color-red {
   color: #d70a30;
@@ -662,26 +716,16 @@ a.color-red {
  * @subpackage  RBAC
  +------------------------------------------------------------------------------
  */
-.bk_d4 {
+.bk-d4 {
   background: #d4d4d4;
 }
-.bk_fff {
+.bk-fff {
   background: #fff;
-  height: 100%;
 }
-.br2 {
-  border: 1px solid #1282c1;
-}
-.bk_l {
-  background: #eaf9ff;
-}
-.bk_c {
-  background: #eccdfe;
-}
-.bk_f7 {
+.bk-f7 {
   background: #f7f7f7;
 }
-.bk_ee {
+.bk-eee {
   background: #eee;
 }
 /**边框***/
@@ -704,6 +748,15 @@ a.color-red {
 .box300 {
   width: 300px;
 }
+.border-top {
+  border-top: 1px solid #ddd;
+}
+.border-bottom {
+  border-bottom: 1px solid #ddd;
+}
+.bgc-fff {
+  background-color: #fff;
+}
 body {
   background: #fff;
 }
@@ -719,7 +772,7 @@ body a:hover {
 }
 .index-header {
   height: 140px;
-  background-color: #000000;
+  background: url("../images/header-bg.png") repeat-x 0 0;
   position: relative;
   padding: 0 24px;
 }
@@ -738,22 +791,57 @@ body a:hover {
 .index-header .info {
   float: right;
   padding-top: 10px;
-  color: #fff;
-}
-.index-header .info a {
-  color: #d70a30;
 }
 .index-header .shopcart {
   position: absolute;
   right: 24px;
   bottom: 10px;
-  color: #fff;
+  color: #2b9df2;
 }
 .index-header .shopcart i {
   font-size: 18px;
 }
+.index {
+  background-color: #f2f2f2;
+  padding-bottom: 100px;
+  /*覆盖bootstrap 样式*/
+}
 .index img {
   width: 100%;
+}
+.index.bgc-fff {
+  background-color: #fff !important;
+}
+.index .modal {
+  top: 25%;
+}
+.index .modal-dialog {
+  position: relative;
+  width: auto;
+  margin: 24px;
+}
+.index .modal-dialog .modal-content {
+  font-size: 30px;
+  text-align: center;
+  color: #7b7b7b;
+  line-height: 1.5;
+}
+.index .modal-dialog .modal-content .modal-header {
+  font-size: 34px;
+  color: #202020;
+}
+.index .modal-dialog .modal-content .modal-footer {
+  text-align: center;
+  font-size: 34px;
+  padding: 0 15px;
+}
+.index .modal-dialog .modal-content .modal-footer .btn {
+  font-size: 34px;
+  background-color: transparent;
+  border: none;
+}
+.index .modal-dialog .modal-content .modal-footer .btn.btn-primary {
+  color: #0579fc;
 }
 .index .search-box {
   margin-top: 10px;
@@ -766,30 +854,27 @@ body a:hover {
   justify-content: center;
   align-items: center;
 }
-.index .search-box i {
-  position: absolute;
-  top: 18px;
-  left: 10px;
-  font-size: 24px;
-  color: #999;
-}
 .index .search-box .text {
   flex: 1;
-  border: 3px solid #000000;
+  border: 1px solid #a5a4a4;
   height: 60px;
   line-height: 60px;
   font-size: 24px;
   padding-left: 30px;
-  border-radius: 5px 0 0 5px;
+  border-radius: 5px;
 }
 .index .search-box .button {
-  background-color: #d70a30;
-  height: 60px;
-  border: 3px solid #d70a30;
-  border-radius: 0 5px 5px 0;
+  position: absolute;
+  right: 0;
+  top: 3px;
+  height: 55px;
+  line-height: 55px;
+  border-left: 1px solid #625f5e;
   padding: 0 20px;
-  color: #fff;
-  font-size: 24px;
+  color: #a5a4a4;
+  font-size: 32px;
+  text-align: center;
+  display: inline-block;
 }
 .index .notice {
   display: -webkit-box;
@@ -924,7 +1009,6 @@ body a:hover {
   position: relative;
   background-color: #000000;
   padding: 20px 24px 20px 134px;
-  margin-bottom: 100px;
   color: #fff;
 }
 .index .web-footer img {
@@ -938,6 +1022,169 @@ body a:hover {
   position: absolute;
   right: 24px;
   top: 20px;
+}
+.header-bar {
+  position: relative;
+  height: 88px;
+  background-color: #000000;
+  line-height: 88px;
+  padding: 0 24px;
+  text-align: center;
+  font-size: 40px;
+  color: #fff;
+}
+.header-bar .icon-arrow-left {
+  background: url("../images/icon-arrow-left.png") no-repeat left center;
+  padding-left: 30px;
+  color: #fff;
+  font-size: 30px;
+  position: absolute;
+  top: 0;
+  left: 24px;
+}
+.header-bar .text {
+  color: #fff;
+  font-size: 30px;
+  position: absolute;
+  top: 0;
+  left: 120px;
+}
+.header-bar .right-button {
+  position: absolute;
+  right: 24px;
+  top: 0;
+  font-size: 30px;
+  color: #d6d7dc;
+}
+.header-bar .right-button:hover {
+  color: #ffffff;
+}
+.sub-header {
+  position: relative;
+  height: 72px;
+  background-color: #fff;
+  border-bottom: 1px solid #dddddd;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  line-height: 72px;
+  padding: 0 24px;
+  text-align: center;
+  font-size: 34px;
+  color: #646464;
+}
+.sub-header .icon-arrow-left {
+  background: url("../images/icon-arrow-left-gray.png") no-repeat left center;
+  padding-left: 30px;
+  color: #fff;
+  font-size: 30px;
+  position: absolute;
+  top: 0;
+  left: 24px;
+}
+/*
+* help.html
+* 帮助中心
+*/
+.help-center {
+  margin-top: 20px;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  background-color: #fff;
+}
+.help-center .title {
+  font-size: 34px;
+  border-bottom: 1px solid #ddd;
+  height: 88px;
+  line-height: 88px;
+  color: #000000;
+  padding-left: 30px;
+}
+.help-center .help-ul li {
+  border-bottom: 1px solid #ddd;
+}
+.help-center .help-ul li a {
+  background: url("../images/icon-question.png") no-repeat 20px center;
+  padding-left: 80px;
+  font-size: 30px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: block;
+}
+.help-center .help-ul li:nth-last-child(1) {
+  border-bottom: none;
+}
+/*
+* recharge.html
+* 充值
+*/
+.item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+.item .text {
+  flex: none;
+  padding-right: 20px;
+}
+.item .flex {
+  flex: 1;
+}
+.item.item-border-top {
+  border-top: 1px solid #ddd;
+}
+.item.item-border-bottom {
+  border-bottom: 1px solid #ddd;
+}
+.item.item-border-bottom:last-child {
+  border: none;
+}
+.item.item-bg {
+  background-color: #fff;
+}
+.item.item-font-small {
+  position: relative;
+  font-size: 28px;
+  padding-left: 0;
+  padding-right: 0;
+}
+.item.item-font-small .icon-check {
+  position: absolute;
+  top: 20px;
+  right: 0;
+  display: inline-block;
+  width: 34px;
+  height: 34px;
+  background: url("../images/icon-no-check.png") no-repeat left top;
+}
+.item.item-font-small.active .icon-check {
+  background: url("../images/icon-check.png") no-repeat left top;
+}
+/*
+* recharge-success.html
+* 充值成功
+*/
+.success {
+  background: url("../images/icon-success.png") no-repeat 100px 50px;
+  padding-left: 220px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-size: 40px;
+  color: #d70a30;
+  line-height: 52px;
+}
+.btn-danger {
+  background-color: #d70a30;
 }
 .pin-top {
   width: 80px;
@@ -1022,7 +1269,7 @@ body a:hover {
 .nav-footer .web-nav li a:focus,
 .nav-footer .web-nav li a:active,
 .nav-footer .web-nav li a.active {
-  color: #d70a30;
+  color: #f2f2f2;
 }
 .nav-footer .web-nav li a:focus .icon-home,
 .nav-footer .web-nav li a:active .icon-home,
@@ -1043,4 +1290,116 @@ body a:hover {
 .nav-footer .web-nav li a:active .icon-user,
 .nav-footer .web-nav li a.active .icon-user {
   background: url("../images/icon-user2.png") no-repeat center top;
+}
+/*
+* my-order.html
+* 我的订单
+*/
+.top-tab {
+  display: flex;
+  margin: 0 -24px;
+}
+.top-tab li {
+  display: inline-block;
+  height: 71px;
+  width: 25%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.top-tab li a {
+  border-right: 1px solid #ddd;
+  display: block;
+}
+.top-tab li:active,
+.top-tab li.active {
+  border-bottom: 4px solid #d70a30;
+}
+.list-item {
+  margin-top: 20px;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  background-color: #fff;
+}
+.list-item .title {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom: 1px solid #ddd;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.list-item .title .number {
+  font-size: 26px;
+  color: #202020;
+  flex: 1;
+}
+.list-item .title .price {
+  flex: 1;
+  align-self: flex-end;
+  text-align: right;
+  font-size: 20px;
+}
+.list-item .information {
+  padding: 20px 90px;
+  position: relative;
+  min-height: 80px;
+  border-bottom: 1px solid #ddd;
+}
+.list-item .information img {
+  width: auto;
+  position: absolute;
+  top: 20px;
+  left: 24px;
+}
+.list-item .information .text {
+  font-size: 24px;
+  color: #202020;
+  min-height: 60px;
+}
+.list-item .information .price {
+  position: absolute;
+  top: 20px;
+  right: 24px;
+  font-size: 20px;
+}
+.list-item .information .number {
+  position: absolute;
+  top: 50px;
+  right: 24px;
+  font-size: 20px;
+  color: #999;
+}
+.list-item .total {
+  border-bottom: 1px solid #ddd;
+  text-align: right;
+  font-size: 24px;
+  color: #202020;
+  padding: 20px 24px;
+}
+.list-item .btns {
+  text-align: right;
+  padding: 20px 24px;
+}
+.button {
+  border: 1px solid #ddd;
+  font-size: 24px;
+  display: inline-block;
+  text-align: center;
+  padding: 15px 24px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+.button.button-red {
+  border: 1px solid #d70a30;
+  background-color: transparent;
+  color: #d70a30;
+}
+.button.button-block {
+  display: block;
 }

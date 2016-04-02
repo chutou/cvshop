@@ -2,7 +2,7 @@
 /* 重置样式 */
 * {-moz-box-sizing: border-box;}
 html {-webkit-text-size-adjust: none; /* 禁用iPhone中Safari的字号自动调整 */}
-body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,hr,button,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {margin:0;padding:0;}
+body,div,dl,dt,dd,ul,ol,li,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,hr,button,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {margin:0;padding:0;}
 body,button,input,select,textarea {font:100% 'Microsoft Yahei',arial,sans-serif;}
 table {border-collapse:collapse;border-spacing:0;}
 th {text-align:inherit;}
@@ -52,8 +52,8 @@ img {height: auto;width: auto9; /* ie8 */ -ms-interpolation-mode:bicubic;}
  * {} * a:link{} img{}
 a{outline:none; text-decoration:none; color:#333; cursor:pointer;}
 a:hover{ text-decoration:none; color:#333;}
-html{/*zoom:1;*/ line-height:24px;}html *{outline:0;/*zoom:1;*/} html button::-moz-focus-inner{border-color:transparent!important;} 
-body{ overflow-x:hidden;} body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;} table{/*border-collapse:collapse;border-spacing:0;*/} fieldset,a img{border:0;} address,caption,cite,code,dfn,em,th,var{font-style:normal;font-weight:normal;} li{list-style:none;} caption,th{text-align:left;} h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;} q:before,q:after{content:'';}
+html{/*zoom:1;*/ line-height:24px;}html *{outline:0;/*zoom:1;*/} html button::-moz-focus-inner{border-color:transparent!important;}
+body{ overflow-x:hidden;} body,div,dl,dt,dd,ul,ol,li,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;} table{/*border-collapse:collapse;border-spacing:0;*/} fieldset,a img{border:0;} address,caption,cite,code,dfn,em,th,var{font-style:normal;font-weight:normal;} li{list-style:none;} caption,th{text-align:left;} q:before,q:after{content:'';}
 .tar{ text-align:right;}
 .color_blue{ color:#5d9cec;}
 .text-unline{ text-decoration:underline;}
@@ -68,7 +68,7 @@ input{ font-family:"微软雅黑";}
  +------------------------------------------------------------------------------
  */
 .clearfix:after {content:"."; display:block; height:0; clear:both; visibility:hidden; }.clearfix {display:block;}.clear{ clear:both; height:0px; font-size:0px; line-height:0px; overflow:hidden;}/* 清除浮动*/
-.colwrapper { overflow:hidden; zoom:1 /*for ie*/; margin:5px auto; }/* 高度自适应 */ 
+.colwrapper { overflow:hidden; zoom:1 /*for ie*/; margin:5px auto; }/* 高度自适应 */
 .strong{ font-weight: bold;} .left{ float: left;} .right{ float: right; text-align:right;} .center{ margin:0 auto; text-align:center;}
 .show{ display:block; visibility:visible;}.hide{ display: none; visibility:hidden;}
 .block{ display:block;} .inline{ display:inline;}.inline-block{ display:inline-block;}.h100{ height:100%;}
@@ -103,14 +103,14 @@ em{ font-style:italic !important;} strike{ text-decoration:line-through !importa
  +------------------------------------------------------------------------------
  * 网站整体颜色总汇
  +------------------------------------------------------------------------------
- * @codex  颜色:使用颜色的名称或者16进制代码,如 
+ * @codex  颜色:使用颜色的名称或者16进制代码,如
  * @subpackage  RBAC
  +------------------------------------------------------------------------------
  */
 .color-333{ color:#333}
 .color-666{ color:#666}
 .color-999{ color:#999}
-.color-blue{ color:#2d84d1}
+.color-blue{ color:@color-blue;}
 a.color-red{ color:@color-red;} .color-red{ color:@color-red;}
 .color-white{ color:#fff;}
 .color-green{ color:#2a8800;}
@@ -146,17 +146,23 @@ a.color-red{ color:@color-red;} .color-red{ color:@color-red;}
  * @subpackage  RBAC
  +------------------------------------------------------------------------------
  */
-.bk_d4{ background:#d4d4d4;}
-.bk_fff{ background:#fff; height:100%;}
-.br2{ border:1px solid #1282c1;}
-.bk_l{ background:#eaf9ff;}
-.bk_c{ background:#eccdfe}
-.bk_f7{ background:#f7f7f7;}
-.bk_ee{ background:#eee;}
+.bk-d4{ background:#d4d4d4;}
+.bk-fff{ background:#fff;}
+.bk-f7{ background:#f7f7f7;}
+.bk-eee{ background:#eee;}
 /**边框***/
 .brts{ border-top:1px solid #e0e0e0;}.brls{ border-left:1px solid #e0e0e0;}.brrs{ border-right:1px solid #e0e0e0;}.brbs{ border-bottom:1px solid #e0e0e0;}.brsa{ border:1px solid #e0e0e0;}
 /*框架大小*/
 .box300{ width:300px;}
+.border-top{
+  .border-top;
+}
+.border-bottom{
+  .border-bottom;
+}
+.bgc-fff{
+  .bgc;
+}
 
 body{ background:#fff;}
 body a:hover{ color:#333;}

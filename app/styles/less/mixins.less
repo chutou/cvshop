@@ -6,7 +6,9 @@
 @color-white: #fff;
 @color-gray: #999;
 @color-black: #202020;
-
+@color-blue: #2b9df2;
+@border-color: #ddd;
+@bg-white: #fff;
 .font-size(@value:18px){
   font-size:@value;
 }
@@ -37,6 +39,27 @@
 .padding-bottom(@value:@gutter){
   padding-bottom:@value;
 }
+.border(@value: 1px solid @border-color){
+  border: @value;
+}
+.border-left(@value:@border-color){
+  border-left:1px solid @value;
+}
+.border-top(@value:@border-color){
+  border-top:1px solid @value;
+}
+.border-right(@value:@border-color){
+  border-right:1px solid @value;
+}
+.border-bottom(@value:@border-color){
+  border-bottom:1px solid @value;
+}
+.bgc(@value:@bg-white){
+  background-color: @value;
+}
+.bg-img(@value,@repeat:no-repeat,@x:left,@y:top){
+  background: url("@{bg-img}@{value}") @repeat @x @y;
+}
 .display-flex() {
   display: -webkit-box;
   display: -webkit-flex;
@@ -44,3 +67,9 @@
   display: -ms-flexbox;
   display: flex;
 }
+.box-sizing(@value: border-box){
+  -webkit-box-sizing: @value;
+  -moz-box-sizing: @value;
+  box-sizing: @value;
+}
+

@@ -1,0 +1,64 @@
+.agent-item{
+  .display-flex;
+  justify-content: flex-start;
+  align-self: center;
+  padding: 2*@gutter 2.4*@gutter;
+  .border-bottom;
+  .font-size(30px);
+  .labels{
+    width: 180px;
+    color: #202020;
+  }
+  .flex{
+    flex: 1;
+    .display-flex;
+    input[type=text],input[type=password]{
+      flex: 1;
+      border: none;
+    }
+    .sub-flex{
+      .display-flex;
+      flex: 1;
+      input[type=radio]{
+        margin-right: 10px;
+      }
+    }
+    &.flex-center{
+      justify-content: center;
+      text-align: center;
+      .sub-flex{
+        justify-content: center;
+      }
+    }
+
+  }
+  &:last-child{
+    border:none;
+  }
+}
+
+/*
+* login.html
+* 登录
+*/
+.quick-login{
+  .padding-top(5*@gutter);
+  .icon-qq{
+    display: inline-block;
+    width:68px;
+    height: 68px;
+    .bg-img('icon-qq.png');
+  }
+  .icon-webchat{
+    display: inline-block;
+    width:68px;
+    height: 68px;
+    .bg-img('icon-webchat.png');
+  }
+  .icon-webo{
+    display: inline-block;
+    width:68px;
+    height: 68px;
+    .bg-img('icon-webo.png');
+  }
+}

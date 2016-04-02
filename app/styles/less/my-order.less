@@ -1,0 +1,107 @@
+/*
+* my-order.html
+* 我的订单
+*/
+.top-tab{
+  display: flex;
+  margin: 0 -24px;
+  li{
+    display: inline-block;
+    height: 71px;
+    width: 25%;
+    .box-sizing();
+    a{
+      border-right: 1px solid #ddd;
+      display: block;
+    }
+    &:active,&.active{
+      border-bottom: 4px solid @color-red;
+    }
+  }
+}
+.list-item{
+  .margin-top(2*@gutter);
+  .border-top;
+  .border-bottom;
+  .bgc;
+  .title{
+    .display-flex;
+    .border-bottom;
+    .padding-left(2.4*@gutter);
+    .padding-right(2.4*@gutter);
+    .padding-top(2*@gutter);
+    .padding-bottom(2*@gutter);
+    .number{
+      .font-size(26px);
+      color: #202020;
+      flex: 1;
+    }
+    .price{
+      flex: 1;
+      align-self: flex-end;
+      text-align: right;
+      .font-size(2*@gutter);
+    }
+  }
+  .information{
+    padding: 2*@gutter 9*@gutter;
+    position: relative;
+    min-height: 80px;
+    .border-bottom;
+    img{
+      width: auto;
+      position: absolute;
+      top: 20px;
+      left: 24px;
+    }
+    .text{
+      .font-size(24px);
+      color: #202020;
+      min-height: 60px;
+    }
+    .price{
+      position: absolute;
+      top:20px;
+      right: 24px;
+      .font-size(20px);
+    }
+    .number{
+      position: absolute;
+      top: 50px;
+      right: 24px;
+      .font-size(20px);
+      color: @color-gray;
+    }
+
+  }
+  .total{
+    .border-bottom;
+    text-align: right;
+    font-size: 24px;
+    color: #202020;
+    padding:2*@gutter 2.4*@gutter;
+  }
+  .btns{
+    text-align: right;
+    padding:2*@gutter 2.4*@gutter;
+  }
+}
+
+.button{
+  .border;
+  .font-size(24px);
+  display: inline-block;
+  text-align: center;
+  padding:1.5*@gutter 2.4*@gutter;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  &.button-red{
+    border: 1px solid @color-red;
+    background-color: transparent;
+    color: @color-red;
+  }
+  &.button-block{
+    display: block;
+  }
+}
