@@ -1,0 +1,46 @@
+@bg-img: '../images/';
+@font-size:18px;
+@small-font-size: 14px;
+@gutter: 10px;
+@color-red: #d70a30;
+@color-white: #fff;
+@color-gray: #999;
+@color-black: #202020;
+
+.font-size(@value:18px){
+  font-size:@value;
+}
+.margin-top(@value: @gutter){
+  margin-top: @value;
+}
+.margin-bottom(@value: @gutter){
+  margin-bottom: @value;
+}
+.margin-left(@value: @gutter){
+  margin-left: @value;
+}
+.margin-right(@value: @gutter){
+  margin-right: @value;
+}
+.margin(@value:@gutter,...){
+  margin: @arguments;
+}
+.padding-left(@value:@gutter){
+  padding-left:@value;
+}
+.padding-top(@value:@gutter){
+  padding-top:@value;
+}
+.padding-right(@value:@gutter){
+  padding-right:@value;
+}
+.padding-bottom(@value:@gutter){
+  padding-bottom:@value;
+}
+.display-flex() {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+}

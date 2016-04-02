@@ -107,14 +107,14 @@ em{ font-style:italic !important;} strike{ text-decoration:line-through !importa
  * @subpackage  RBAC
  +------------------------------------------------------------------------------
  */
-.color_333{ color:#333}
-.color_666{ color:#666}
-.color_999{ color:#999}
-.color_blue{ color:#2d84d1}
-a.color_red{ color:#f32b41;} .color_red{ color:#f32b41;}
-.color_white{ color:#fff;}
-.color_green{ color:#2a8800;}
-.color_org{ color:#ff8201;}
+.color-333{ color:#333}
+.color-666{ color:#666}
+.color-999{ color:#999}
+.color-blue{ color:#2d84d1}
+a.color-red{ color:@color-red;} .color-red{ color:@color-red;}
+.color-white{ color:#fff;}
+.color-green{ color:#2a8800;}
+.color-org{ color:#ff8201;}
 
 /**
  +------------------------------------------------------------------------------
@@ -158,5 +158,12 @@ a.color_red{ color:#f32b41;} .color_red{ color:#f32b41;}
 /*框架大小*/
 .box300{ width:300px;}
 
-body{ background:#fff; color: red;}
+body{ background:#fff;}
 body a:hover{ color:#333;}
+.line-through{
+ text-decoration: line-through;
+}
+.padding-24{
+ .padding-left(24px);
+ .padding-right(24px);
+}
