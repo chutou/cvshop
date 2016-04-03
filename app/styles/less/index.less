@@ -300,6 +300,13 @@
     top: 0;
     left: 24px;
   }
+  .icon-right{
+    position: absolute;
+    top: 0;
+    right: 24px;
+    .fontsize(3);
+
+  }
 }
 
 
@@ -407,9 +414,16 @@
   .font-size(40px);
   color: @color-red;
   line-height: 52px;
+  &.banksuccess{
+    .bg-img('icon-bankinfo.png',no-repeat,100px,50px);
+  }
 }
 .btn-danger{
   background-color: @color-red;
+  .fontsize(2.4);
+  &.btn-lg{
+    .fontsize(3.8);
+  }
 }
 
 .pin-top{

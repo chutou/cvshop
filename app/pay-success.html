@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>等待收货</title>
+    <title>支付成功</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="/favicon.ico">
@@ -32,46 +32,41 @@
         <div class="title">云集荟</div>
     </header>
     <div class="sub-header">
-        <ul class="top-tab">
-          <li>
-            <a href="my-order.html">我的订单</a>
-          </li>
-          <li>
-            <a href="payment.html">待付款</a>
-          </li>
-          <li class="active">
-            <a href="goods.html">待收货</a>
-          </li>
-          <li>
-            <a href="comments.html">待评价</a>
-          </li>
-        </ul>
+        <a class="icon-arrow-left">返回</a>
+        <div class="title">支付成功</div>
     </div>
-
-    <div class="order">
-      <div class="list-item">
-        <div class="title">
-          <span class="number">订单号：4587998788</span>
-          <span class="color-red status">卖家已发货</span>
-        </div>
-        <div class="information">
-          <img src="images/img20.png" width="54" />
-          <p class="text">CV面膜组合回溯修复&深层进化</p>
-          <p class="price">¥88.88</p>
-          <span class="number">×1</span>
-        </div>
-        <div class="total">
-          <span>共计<b class="black"> 1</b>件商品</span>
-          <span>合计：<small>¥88.88（含运费¥0.00）</small></span>
-        </div>
-        <div class="btns">
-          <a class="button button-inline mr20">查看物流</a>
-          <a class="button button-red">等待收货</a>
-        </div>
+    <div class="mt20 pay-info">
+      <p>买家已付款</p>
+      <p>您的包裹正整装待发</p>
+    </div>
+    <div class="padding-24 bk-fff">
+      <div class="font28px pb20 pt20"><span class="text">收 货 人：</span> 张三    18265595461</div>
+      <div class="font28px pb20 pt20 border-bottom">收货地址：福建省福州市鼓楼区软件园c区</div>
+      <div class="font28px pb20 border-bottom pt20">总价：<span class="color-red">¥88.88</span></div>
+      <div class="pt20 pb20 center half-flex">
+        <div class="labels"><a class="button button-red" href="##">查看订单</a></div>
+        <div class="labels"><a class="button button-red" href="##">继续购物</a></div>
       </div>
-
     </div>
-    <a class="icon-serve" href="##">客服</a>
+    <!--猜您喜欢-->
+    <div class="bk-fff pt20 mt20">
+      <div class="like">
+        <div class="title"><span class="text">猜您喜欢</span></div>
+        <div class="padding-24">
+          <div class="font18px">
+            今日备受欢迎
+          </div>
+          <a class="like-item">
+            <p class="mt20"><img src="images/img30.png" /></p>
+            <div class="half-flex font18px pt20 pb20">
+              <div class="labels">CV面膜组合 回溯修复&深层净化</div>
+              <div class="labels right-labels"><span class="color-red">￥99.99</span> </div>
+            </div>
+          </a>
+        </div>
+
+      </div>
+    </div>
     <!--底部-->
     <footer class="nav-footer">
         <ul class="web-nav">
@@ -127,7 +122,10 @@
     <!-- build:js scripts/index.js -->
     <script type="text/javascript">
       $(function(){
-
+        $(".item").on("click",function(){
+          $(this).siblings('.item').removeClass('active');
+          $(this).addClass('active');
+        });
       })
     </script>
 </body>

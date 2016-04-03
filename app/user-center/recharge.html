@@ -1,0 +1,126 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <title>充值</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <!-- build:css(.) styles/vendor.css -->
+    <!-- bower:css -->
+    <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="/bower_components/bootstrap-select/dist/css/bootstrap-select.css" />
+    <link rel="stylesheet" href="/bower_components/Swiper/dist/css/swiper.css" />
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:css(.tmp) styles/main.css -->
+    <link rel="stylesheet" href="/bower_components/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="../styles/main.css">
+    <!-- endbuild -->
+    <!-- build:js scripts/vendor/modernizr.js -->
+    <script src="/bower_components/modernizr/modernizr.js"></script>
+    <!-- endbuild -->
+</head>
+
+<body class="index">
+    <header class="header-bar">
+        <a class="icon-arrow-left">返回</a>
+        <a class="text" href="##">关闭</a>
+        <div class="title">云集荟</div>
+        <a class="right-button" href="recharge-success.html">下一步</a>
+    </header>
+    <div class="sub-header">
+        <a class="icon-arrow-left">返回</a>
+        <div class="title">充值</div>
+    </div>
+    <div class="mt20 item item-bg item-border-bottom item-border-top">
+      <span class="text">金额（元）</span>
+      <span class="flex color-red">¥10,000.00</span>
+    </div>
+    <div class="mt20 item item-border-bottom item-border-top item-bg">
+      <span class="flex">选择支付方式</span>
+    </div>
+    <div class="padding-24 bgc-fff">
+      <a class="item item-border-bottom item-font-small active">
+        <span class="text"><img src="../images/img-unionpay.png" /></span>
+        <span class="flex">银联转账</span>
+        <span class="icon-check"></span>
+      </a>
+      <a class="item item-border-bottom item-font-small" href="offline-payment.html">
+        <span class="text"><img src="../images/img-visa.png" /></span>
+        <span class="flex">线下付款</span>
+        <span class="icon-check"></span>
+      </a>
+      <a class="item item-border-bottom item-font-small">
+        <span class="text"><img src="../images/img-wechat.png" /></span>
+        <span class="flex">微信支付</span>
+        <span class="icon-check"></span>
+      </a>
+    </div>
+    <!--底部-->
+    <footer class="nav-footer">
+        <ul class="web-nav">
+            <li>
+                <a href="../index.html" class="active">
+                    <p><i class="icon-home"></i></p>
+                    <p>首页</p>
+                </a>
+            </li>
+            <li>
+                <a href="../index.html">
+                    <p><i class="icon-cv"></i></p>
+                    <p>CV家人</p>
+                </a>
+            </li>
+            <li>
+                <a href="../index.html">
+                    <p><i class="icon-cart"></i></p>
+                    <p>购物车</p>
+                </a>
+            </li>
+            <li>
+                <a href="../index.html">
+                    <p><i class="icon-user"></i></p>
+                    <p>我的集荟</p>
+                </a>
+            </li>
+        </ul>
+    </footer>
+    <!-- build:js(.) scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="/bower_components/jquery/dist/jquery.js"></script>
+    <script src="/bower_components/bootstrap-select/dist/js/bootstrap-select.js"></script>
+    <script src="/bower_components/Swiper/dist/js/swiper.js"></script>
+    <script src="/bower_components/jquery.spinner/dist/js/jquery.spinner.js"></script>
+    <script src="/bower_components/jquery.pin/jquery.pin.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:js(.) scripts/plugins.js -->
+    <script src="/bower_components/bootstrap/js/affix.js"></script>
+    <script src="/bower_components/bootstrap/js/alert.js"></script>
+    <script src="/bower_components/bootstrap/js/dropdown.js"></script>
+    <script src="/bower_components/bootstrap/js/tooltip.js"></script>
+    <script src="/bower_components/bootstrap/js/modal.js"></script>
+    <script src="/bower_components/bootstrap/js/transition.js"></script>
+    <script src="/bower_components/bootstrap/js/button.js"></script>
+    <script src="/bower_components/bootstrap/js/popover.js"></script>
+    <script src="/bower_components/bootstrap/js/carousel.js"></script>
+    <script src="/bower_components/bootstrap/js/scrollspy.js"></script>
+    <script src="/bower_components/bootstrap/js/collapse.js"></script>
+    <script src="/bower_components/bootstrap/js/tab.js"></script>
+    <!-- endbuild -->
+    <!-- build:js scripts/index.js -->
+    <script type="text/javascript">
+      $(function(){
+        $(".item").on("click",function(){
+          $(this).siblings('.item').removeClass('active');
+          $(this).addClass('active');
+        });
+      })
+    </script>
+</body>
+
+</html>

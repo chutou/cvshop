@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>待评价</title>
+    <title>我的订单</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="/favicon.ico">
@@ -18,7 +18,7 @@
     <!-- endbuild -->
     <!-- build:css(.tmp) styles/main.css -->
     <link rel="stylesheet" href="/bower_components/font-awesome/css/font-awesome.min.css" />
-    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="../styles/main.css">
     <!-- endbuild -->
     <!-- build:js scripts/vendor/modernizr.js -->
     <script src="/bower_components/modernizr/modernizr.js"></script>
@@ -33,7 +33,7 @@
     </header>
     <div class="sub-header">
         <ul class="top-tab">
-          <li>
+          <li class="active">
             <a href="my-order.html">我的订单</a>
           </li>
           <li>
@@ -42,7 +42,7 @@
           <li>
             <a href="goods.html">待收货</a>
           </li>
-          <li  class="active">
+          <li>
             <a href="comments.html">待评价</a>
           </li>
         </ul>
@@ -52,10 +52,51 @@
       <div class="list-item">
         <div class="title">
           <span class="number">订单号：4587998788</span>
+          <span class="color-red status">等待买家付款</span>
+        </div>
+        <div class="information">
+          <img src="../images/img20.png" width="54" />
+          <p class="text">CV面膜组合回溯修复&深层进化</p>
+          <p class="price">¥88.88</p>
+          <span class="number">×1</span>
+        </div>
+        <div class="total">
+          <span>共计<b class="black"> 1</b>件商品</span>
+          <span>合计：<small>¥88.88（含运费¥0.00）</small></span>
+        </div>
+        <div class="btns">
+          <a class="button button-inline mr20">取消订单</a>
+          <a class="button button-red">付款</a>
+        </div>
+      </div>
+      <div class="list-item">
+        <div class="title">
+          <span class="number">订单号：4587998788</span>
+          <span class="color-red status">卖家已发货</span>
+        </div>
+        <div class="information">
+          <img src="../images/img20.png" width="54" />
+          <p class="text">CV面膜组合回溯修复&深层进化</p>
+          <p class="price">¥88.88</p>
+          <span class="number">×1</span>
+        </div>
+        <div class="total">
+          <span>共计<b class="black"> 1</b>件商品</span>
+          <span>合计：<small>¥88.88（含运费¥0.00）</small></span>
+        </div>
+        <div class="btns">
+          <a class="button button-red mr20">退换货</a>
+          <a class="button button-inline mr20">查看物流</a>
+          <a class="button button-red">等待收货</a>
+        </div>
+      </div>
+      <div class="list-item">
+        <div class="title">
+          <span class="number">订单号：4587998788</span>
           <span class="color-red status">交易成功</span>
         </div>
         <div class="information">
-          <img src="images/img20.png" width="54" />
+          <img src="../images/img20.png" width="54" />
           <p class="text">CV面膜组合回溯修复&深层进化</p>
           <p class="price">¥88.88</p>
           <span class="number">×1</span>
@@ -70,30 +111,30 @@
         </div>
       </div>
     </div>
-    <a class="icon-serve" href="##">客服</a>
+
     <!--底部-->
     <footer class="nav-footer">
         <ul class="web-nav">
             <li>
-                <a href="index.html" class="active">
+                <a href="../index.html" class="active">
                     <p><i class="icon-home"></i></p>
                     <p>首页</p>
                 </a>
             </li>
             <li>
-                <a href="index.html">
+                <a href="../index.html">
                     <p><i class="icon-cv"></i></p>
                     <p>CV家人</p>
                 </a>
             </li>
             <li>
-                <a href="index.html">
+                <a href="../index.html">
                     <p><i class="icon-cart"></i></p>
                     <p>购物车</p>
                 </a>
             </li>
             <li>
-                <a href="index.html">
+                <a href="../index.html">
                     <p><i class="icon-user"></i></p>
                     <p>我的集荟</p>
                 </a>

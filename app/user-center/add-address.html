@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>充值</title>
+    <title>收货人地址</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="/favicon.ico">
@@ -18,7 +18,7 @@
     <!-- endbuild -->
     <!-- build:css(.tmp) styles/main.css -->
     <link rel="stylesheet" href="/bower_components/font-awesome/css/font-awesome.min.css" />
-    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="../styles/main.css">
     <!-- endbuild -->
     <!-- build:js scripts/vendor/modernizr.js -->
     <script src="/bower_components/modernizr/modernizr.js"></script>
@@ -30,59 +30,85 @@
         <a class="icon-arrow-left">返回</a>
         <a class="text" href="##">关闭</a>
         <div class="title">云集荟</div>
-        <a class="right-button" href="recharge-success.html">下一步</a>
     </header>
     <div class="sub-header">
-        <a class="icon-arrow-left">返回</a>
-        <div class="title">充值</div>
+      <a class="icon-arrow-left">返回</a>
+      <div class="title">新增地址</div>
+        <div class="icon-right"><a href="javascript:;">保存</a> </div>
     </div>
-    <div class="mt20 item item-bg item-border-bottom item-border-top">
-      <span class="text">金额（元）</span>
-      <span class="flex color-red">¥10,000.00</span>
+
+    <div class="bk-fff border-top border-bottom mt20 padding-24">
+      <div class="agent-item">
+        <span class="labels">收货人</span>
+        <div class="flex">
+          <input type="text" class="text" placeholder="请输入你的收货人" />
+        </div>
+      </div>
+      <div class="agent-item">
+        <span class="labels">手机号码</span>
+        <div class="flex">
+          <input type="text" class="text" placeholder="请输入您的手机号码" />
+        </div>
+      </div>
+      <div class="agent-item">
+        <span class="labels">省市区</span>
+        <div class="flex">
+          <input type="text" class="text" placeholder="请输入您的所在的省市区" />
+        </div>
+      </div>
+      <div class="agent-item">
+        <span class="labels">详细地址</span>
+        <div class="flex">
+          <input type="text" class="text" placeholder="请输入您所在的详细地址" />
+        </div>
+      </div>
     </div>
-    <div class="mt20 item item-border-bottom item-border-top item-bg">
-      <span class="flex">选择支付方式</span>
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">推荐人信息</h4>
+          </div>
+          <div class="modal-body">
+            <p>姓名： a陈xx</p>
+            <p>
+              电话号码 ：18798765432
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-block btn-primary" data-dismiss="modal">确认</button>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="padding-24 bgc-fff">
-      <a class="item item-border-bottom item-font-small active">
-        <span class="text"><img src="images/img-unionpay.png" /></span>
-        <span class="flex">银联转账</span>
-        <span class="icon-check"></span>
-      </a>
-      <a class="item item-border-bottom item-font-small">
-        <span class="text"><img src="images/img-visa.png" /></span>
-        <span class="flex">线下付款</span>
-        <span class="icon-check"></span>
-      </a>
-      <a class="item item-border-bottom item-font-small">
-        <span class="text"><img src="images/img-wechat.png" /></span>
-        <span class="flex">微信支付</span>
-        <span class="icon-check"></span>
-      </a>
-    </div>
+
+    <a class="icon-serve" href="##">客服</a>
     <!--底部-->
     <footer class="nav-footer">
         <ul class="web-nav">
             <li>
-                <a href="index.html" class="active">
+                <a href="../index.html" class="active">
                     <p><i class="icon-home"></i></p>
                     <p>首页</p>
                 </a>
             </li>
             <li>
-                <a href="index.html">
+                <a href="../index.html">
                     <p><i class="icon-cv"></i></p>
                     <p>CV家人</p>
                 </a>
             </li>
             <li>
-                <a href="index.html">
+                <a href="../index.html">
                     <p><i class="icon-cart"></i></p>
                     <p>购物车</p>
                 </a>
             </li>
             <li>
-                <a href="index.html">
+                <a href="../index.html">
                     <p><i class="icon-user"></i></p>
                     <p>我的集荟</p>
                 </a>
@@ -115,10 +141,7 @@
     <!-- build:js scripts/index.js -->
     <script type="text/javascript">
       $(function(){
-        $(".item").on("click",function(){
-          $(this).siblings('.item').removeClass('active');
-          $(this).addClass('active');
-        });
+
       })
     </script>
 </body>

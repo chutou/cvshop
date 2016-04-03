@@ -2,7 +2,7 @@
 /* 重置样式 */
 * {-moz-box-sizing: border-box;}
 html {-webkit-text-size-adjust: none; /* 禁用iPhone中Safari的字号自动调整 */}
-body,div,dl,dt,dd,ul,ol,li,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,hr,button,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {margin:0;padding:0;}
+body,div,dl,dt,dd,ul,ol,li,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,hr,button,article,aside,details,figcaption,figure,footer,header,menu,nav,section {margin:0;padding:0;}
 body,button,input,select,textarea {font:100% 'Microsoft Yahei',arial,sans-serif;}
 table {border-collapse:collapse;border-spacing:0;}
 th {text-align:inherit;}
@@ -13,7 +13,6 @@ del {text-decoration:line-through;}
 address,caption,cite,code,dfn,em,th,var {font-style:normal;font-weight:500;}
 ol,ul {list-style:none;}
 caption,th {text-align:left;}
-body,h1,h2,h3,h4,h5,h6 {font-size-adjust: 0.5;}
 q:before,q:after {content:'';}
 sub,sup {font-size:75%;line-height:0;position:relative;vertical-align:baseline;}
 sup {top:-0.5em;}
@@ -34,7 +33,7 @@ a:focus,*:focus {outline:none;}
 input,input:focus,input:active{user-select: text;}
 
 /* 设置HTML5元素为块 */
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block;}
+article, aside, details, figcaption, figure, footer, header, menu, nav, section {display: block;}
 
 /* 设置图片视频等自适应调整 */
 img {height: auto;width: auto9; /* ie8 */ -ms-interpolation-mode:bicubic;}
@@ -131,10 +130,10 @@ a.color-red{ color:@color-red;} .color-red{ color:@color-red;}
 .font16px{ font-size:16px;}
 .font18px{ font-size:18px;}
 .font24px{ font-size:24px;}
-.font26px{ font-size:26px;}
-.font28px{ font-size:28px;}
-.font20px{ font-size:20px;}
-.font32px{ font-size:32px;}
+.font26px{ .fontsize(2.6)}
+.font28px{ .fontsize(2.8)}
+.font20px{ .fontsize(2)}
+.font32px{ .fontsize(3.2)}
 .font9pt{ font-size:9pt;}
 .black{ color:#000;}
 /**

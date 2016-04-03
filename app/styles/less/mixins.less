@@ -12,6 +12,9 @@
 .font-size(@value:18px){
   font-size:@value;
 }
+.fontsize(@value:18px){
+  font-size: @value*@gutter;
+}
 .margin-top(@value: @gutter){
   margin-top: @value;
 }
@@ -39,6 +42,10 @@
 .padding-bottom(@value:@gutter){
   padding-bottom:@value;
 }
+.padding(@value: 2*@gutter 2.4*@gutter){
+  padding:@value;
+}
+
 .border(@value: 1px solid @border-color){
   border: @value;
 }

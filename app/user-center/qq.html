@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>帮助中心</title>
+    <title>个人中心-修改qq号</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="/favicon.ico">
@@ -18,35 +18,31 @@
     <!-- endbuild -->
     <!-- build:css(.tmp) styles/main.css -->
     <link rel="stylesheet" href="/bower_components/font-awesome/css/font-awesome.min.css" />
-    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="../styles/main.css">
     <!-- endbuild -->
     <!-- build:js scripts/vendor/modernizr.js -->
     <script src="/bower_components/modernizr/modernizr.js"></script>
     <!-- endbuild -->
 </head>
 
-<body class="index">
+<body class="index user-center">
     <header class="header-bar">
         <a class="icon-arrow-left">返回</a>
         <a class="text" href="##">关闭</a>
-        <div class="title">云集荟</div>
+        <div class="title">修改qq号</div>
     </header>
-    <div class="sub-header">
-        <a class="icon-arrow-left">返回</a>
-        <div class="title">帮助中心</div>
-    </div>
-    <div class="padding-24 help-center">
-        <div class="title">
-            常见问题
+    <div class="bgc-fff border-bottom border-top">
+      <div class="agent-item">
+        <div class="flex">
+          <input type="text" class="text" placeholder="请输入您的qq号" value="12345678" autofocus />
+          <a class="icon-clear" href="javascript:;"></a>
         </div>
-        <ul class="help-ul">
-            <li><a href="##">如何提升代理级别？</a></li>
-            <li><a href="##">如何提升代理级别？</a></li>
-            <li><a href="##">如何提升代理级别？</a></li>
-        </ul>
+
+      </div>
     </div>
-    <a class="icon-serve" href="##">客服</a>
-    <!--底部-->
+    <div class="mt50 padding-24">
+      <button class="btn btn-block btn-lg btn-danger">确定</button>
+    </div>
     <footer class="nav-footer">
         <ul class="web-nav">
             <li>
@@ -101,7 +97,9 @@
     <!-- build:js scripts/index.js -->
     <script type="text/javascript">
       $(function(){
-
+        $('.icon-clear').on('click',function(){
+          $(this).siblings("input[type='text']").val('');
+        })
       })
     </script>
 </body>

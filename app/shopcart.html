@@ -1,0 +1,208 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <title>购物车</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <!-- build:css(.) styles/vendor.css -->
+    <!-- bower:css -->
+    <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="/bower_components/bootstrap-select/dist/css/bootstrap-select.css" />
+    <link rel="stylesheet" href="/bower_components/Swiper/dist/css/swiper.css" />
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:css(.tmp) styles/main.css -->
+    <link rel="stylesheet" href="/bower_components/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+    <!-- build:js scripts/vendor/modernizr.js -->
+    <script src="/bower_components/modernizr/modernizr.js"></script>
+    <!-- endbuild -->
+</head>
+
+<body class="index">
+    <header class="header-bar">
+        <a class="icon-arrow-left">返回</a>
+        <a class="text" href="##">关闭</a>
+        <div class="title">云集荟</div>
+    </header>
+    <div class="sub-header">
+        <a class="icon-arrow-left">返回</a>
+        <div class="title">购物车</div>
+    </div>
+    <!--空状态-->
+    <div class="cart-blank" style="display: none;">
+      <p><img src="images/icon-cart-big.png"/></p>
+      <h2 class="pt20">购物车空空如也</h2>
+      <div class="pt20 center">
+        <a class="button button-red" href="index.html">去抢购</a>
+      </div>
+    </div>
+    <!--购物状态-->
+    <div class="cart-item">
+      <span class="icon-check"></span>
+      <span class="img">
+        <img src="images/img31.png" width="110" />
+      </span>
+      <div class="flex-right">
+        <div class="half-flex">
+          <span class="labels font24px">CV面膜组合回溯修复&深层...</span>
+          <span class="labels right-labels font24px">
+            <b class="color-red">小计:¥88.88 <br /> &nbsp;</b>
+          </span>
+        </div>
+        <div class="half-flex mt20">
+          <span class="labels font24px">¥88.88</span>
+          <div class="labels right-labels font24px">
+            <a><i class="fa fa-plus color-red"></i> </a>
+            <input type="text" class="input-text" value="1" />
+            <a><i class="fa fa-minus color-red"></i> </a>
+          </div>
+        </div>
+        <div class="half-flex mt20">
+          <div class="labels font18px">商品库存：<span class="color-red">9999件</span></div>
+          <div class="labels right-labels font18px">
+            <span class="color-red">库存余额：¥9911.12</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--猜您喜欢-->
+    <div class="bk-fff pt20 mt20">
+      <div class="like">
+        <div class="title"><span class="text">猜您喜欢</span></div>
+        <div class="padding-24">
+          <div class="font18px">
+            今日备受欢迎
+          </div>
+          <a class="like-item">
+            <p class="mt20"><img src="images/img30.png" /></p>
+            <div class="half-flex font18px pt20 pb20">
+              <div class="labels">CV面膜组合 回溯修复&深层净化</div>
+              <div class="labels right-labels"><span class="color-red">￥99.99</span> </div>
+            </div>
+          </a>
+          <div class="half-like-item">
+            <a class="like-item">
+              <p class="mt20"><img src="images/img30.png" /></p>
+              <div class="half-flex font18px pt20 pb20">
+                <div class="labels">CV面膜组合 回溯修复&深层净化</div>
+              </div>
+              <div class="half-flex font18px pb20">
+                <div class="labels"><span class="color-red">￥99.99</span> </div>
+              </div>
+            </a>
+            <a class="like-item">
+              <p class="mt20"><img src="images/img30.png" /></p>
+              <div class="half-flex font18px pt20 pb20">
+                <div class="labels">CV面膜组合 回溯修复&深层净化</div>
+              </div>
+              <div class="half-flex font18px pb20">
+                <div class="labels"><span class="color-red">￥99.99</span> </div>
+              </div>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="sub-footer-bar">
+      <div class="bgc-fff padding-24 pt20 pb20 border-bottom border-top">
+        <div class="cart-btm">
+          <div class="input">
+            <p id="check"><i class="icon-check"></i> <span class="h2">全选</span></p>
+          </div>
+          <div class="flex-left" id="total" style="visibility: hidden;">
+            <p><b class="font24px">合计</b> <span class="color-red font18px">¥88.88</span></p>
+            <p><b class="font24px">共 1 件</b></p>
+          </div>
+          <div class="flex-right">
+            <a class="btn btn-block btn-danger" id="submit">提交订单</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--底部-->
+    <footer class="nav-footer">
+        <ul class="web-nav">
+            <li>
+                <a href="index.html" class="active">
+                    <p><i class="icon-home"></i></p>
+                    <p>首页</p>
+                </a>
+            </li>
+            <li>
+                <a href="index.html">
+                    <p><i class="icon-cv"></i></p>
+                    <p>CV家人</p>
+                </a>
+            </li>
+            <li>
+                <a href="index.html">
+                    <p><i class="icon-cart"></i></p>
+                    <p>购物车</p>
+                </a>
+            </li>
+            <li>
+                <a href="index.html">
+                    <p><i class="icon-user"></i></p>
+                    <p>我的集荟</p>
+                </a>
+            </li>
+        </ul>
+    </footer>
+    <!-- build:js(.) scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="/bower_components/jquery/dist/jquery.js"></script>
+    <script src="/bower_components/bootstrap-select/dist/js/bootstrap-select.js"></script>
+    <script src="/bower_components/Swiper/dist/js/swiper.js"></script>
+    <script src="/bower_components/jquery.spinner/dist/js/jquery.spinner.js"></script>
+    <script src="/bower_components/jquery.pin/jquery.pin.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:js(.) scripts/plugins.js -->
+    <script src="/bower_components/bootstrap/js/affix.js"></script>
+    <script src="/bower_components/bootstrap/js/alert.js"></script>
+    <script src="/bower_components/bootstrap/js/dropdown.js"></script>
+    <script src="/bower_components/bootstrap/js/tooltip.js"></script>
+    <script src="/bower_components/bootstrap/js/modal.js"></script>
+    <script src="/bower_components/bootstrap/js/transition.js"></script>
+    <script src="/bower_components/bootstrap/js/button.js"></script>
+    <script src="/bower_components/bootstrap/js/popover.js"></script>
+    <script src="/bower_components/bootstrap/js/carousel.js"></script>
+    <script src="/bower_components/bootstrap/js/scrollspy.js"></script>
+    <script src="/bower_components/bootstrap/js/collapse.js"></script>
+    <script src="/bower_components/bootstrap/js/tab.js"></script>
+    <!-- endbuild -->
+    <!-- build:js scripts/index.js -->
+    <script type="text/javascript">
+      $(function(){
+        $(".item").on("click",function(){
+          $(this).siblings('.item').removeClass('active');
+          $(this).addClass('active');
+        });
+        $("#check").bind('click',function(){
+          if($('#total').css('visibility')=='hidden'){
+            $(this).parents('.input').addClass('active');
+            $(".cart-item").addClass('active');
+            $("#submit").text('去结算');
+            $('#total').css('visibility','');
+          }else{
+            $(this).parents('.input').removeClass('active');
+            $(".cart-item").removeClass('active');
+            $("#submit").text('删除商品');
+            $('#total').css('visibility','hidden');
+          }
+
+        });
+      })
+    </script>
+</body>
+
+</html>

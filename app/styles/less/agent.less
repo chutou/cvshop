@@ -3,6 +3,7 @@
   justify-content: flex-start;
   align-self: center;
   padding: 2*@gutter 2.4*@gutter;
+  position: relative;
   .border-bottom;
   .font-size(30px);
   .labels{
@@ -11,10 +12,20 @@
   }
   .flex{
     flex: 1;
+    position: relative;
     .display-flex;
-    input[type=text],input[type=password]{
+    input[type=text],input[type=password],textarea{
       flex: 1;
       border: none;
+    }
+    .icon-clear{
+      .bg-img('icon-clear.png');
+      width: 30px;
+      height: 30px;
+      display: inline-block;
+      position: absolute;
+      top: 0px;
+      right: 0;
     }
     .sub-flex{
       .display-flex;
@@ -22,6 +33,7 @@
       input[type=radio]{
         margin-right: 10px;
       }
+      
     }
     &.flex-center{
       justify-content: center;
@@ -34,6 +46,25 @@
   }
   &:last-child{
     border:none;
+  }
+  &.validate{
+    .input[type=text],input[type=password]{
+      color: @color-red;
+    }
+    .info{
+      position: absolute;
+      top: 20px;
+      right: 0;
+      width: 200px;
+      color: @color-red;
+      .fontsize(1.8);
+      display: inline-block;
+    }
+  }
+}
+.padding-24{
+  .agent-item {
+    padding: 2*@gutter 0;
   }
 }
 
