@@ -4,10 +4,10 @@
 */
 .top-tab{
   display: flex;
-  margin: 0 -24px;
+  margin: 0 -2.4*@gutter;
   li{
     display: inline-block;
-    height: 71px;
+    height: 7.1*@gutter;
     width: 25%;
     .box-sizing();
     a{
@@ -32,7 +32,7 @@
     .padding-top(2*@gutter);
     .padding-bottom(2*@gutter);
     .number{
-      .font-size(26px);
+      .fontsize(2.6);
       color: #202020;
       flex: 1;
     }
@@ -46,30 +46,30 @@
   .information{
     padding: 2*@gutter 9*@gutter;
     position: relative;
-    min-height: 80px;
+    min-height: 8*@gutter;
     .border-bottom;
     img{
       width: auto;
       position: absolute;
-      top: 20px;
-      left: 24px;
+      top: 2*@gutter;
+      left: 2.4*@gutter;
     }
     .text{
-      .font-size(24px);
+      .font-size(2.4*@gutter);
       color: #202020;
-      min-height: 60px;
+      min-height: 6*@gutter;
     }
     .price{
       position: absolute;
-      top:20px;
-      right: 24px;
-      .font-size(20px);
+      top:2*@gutter;
+      right: 2.4*@gutter;
+      .fontsize(20);
     }
     .number{
       position: absolute;
-      top: 50px;
-      right: 24px;
-      .font-size(20px);
+      top: 5*@gutter;
+      right: 2.4*@gutter;
+      .fontsize(2);
       color: @color-gray;
     }
 
@@ -77,7 +77,7 @@
   .total{
     .border-bottom;
     text-align: right;
-    font-size: 24px;
+    font-size: 2.4*@gutter;
     color: #202020;
     padding:2*@gutter 2.4*@gutter;
   }
@@ -89,13 +89,13 @@
 
 .button{
   .border;
-  .font-size(24px);
+  .fontsize(2.4);
   display: inline-block;
   text-align: center;
   padding:1.5*@gutter 2.4*@gutter;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  border-radius: 10px;
+  -webkit-border-radius: @gutter;
+  -moz-border-radius: @gutter;
+  border-radius: @gutter;
   &.button-red{
     border: 1px solid @color-red;
     background-color: @color-white;

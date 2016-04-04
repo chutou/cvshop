@@ -20,20 +20,20 @@
     }
     .icon-clear{
       .bg-img('icon-clear.png');
-      width: 30px;
-      height: 30px;
+      width: 3*@gutter;
+      height: 3*@gutter;
       display: inline-block;
       position: absolute;
-      top: 0px;
+      top: 0;
       right: 0;
     }
     .sub-flex{
       .display-flex;
       flex: 1;
       input[type=radio]{
-        margin-right: 10px;
+        margin-right: @gutter;
       }
-      
+
     }
     &.flex-center{
       justify-content: center;
@@ -53,9 +53,9 @@
     }
     .info{
       position: absolute;
-      top: 20px;
+      top: 2*@gutter;
       right: 0;
-      width: 200px;
+      width: 20*@gutter;
       color: @color-red;
       .fontsize(1.8);
       display: inline-block;
@@ -76,20 +76,20 @@
   .padding-top(5*@gutter);
   .icon-qq{
     display: inline-block;
-    width:68px;
-    height: 68px;
+    width:6.8*@gutter;
+    height: 6.8*@gutter;
     .bg-img('icon-qq.png');
   }
   .icon-webchat{
     display: inline-block;
-    width:68px;
-    height: 68px;
+    width:6.8*@gutter;
+    height: 6.8*@gutter;
     .bg-img('icon-webchat.png');
   }
   .icon-webo{
     display: inline-block;
-    width:68px;
-    height: 68px;
+    width:6.8*@gutter;
+    height: 6.8*@gutter;
     .bg-img('icon-webo.png');
   }
 }
