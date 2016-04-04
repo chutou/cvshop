@@ -1,0 +1,271 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>搜索</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+  <!-- build:css(.) styles/vendor.css -->
+  <!-- bower:css -->
+  <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.css" />
+  <link rel="stylesheet" href="/bower_components/bootstrap-select/dist/css/bootstrap-select.css" />
+  <link rel="stylesheet" href="/bower_components/Swiper/dist/css/swiper.css" />
+  <!-- endbower -->
+  <!-- endbuild -->
+  <!-- build:css(.tmp) styles/main.css -->
+  <link rel="stylesheet" href="/bower_components/font-awesome/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="styles/main.css">
+  <!-- endbuild -->
+  <!-- build:js scripts/vendor/modernizr.js -->
+  <script src="/bower_components/modernizr/modernizr.js"></script>
+  <!-- endbuild -->
+</head>
+
+<body class="index bgc-fff">
+<header class="header-bar">
+  <a class="icon-arrow-left">返回</a>
+  <a class="text" href="##">关闭</a>
+  <div class="title">云集荟</div>
+</header>
+<div class="search-container">
+  <!--搜索栏-->
+  <div class="search-box">
+    <input class="text" placeholder="请输入你要搜索的关键字" />
+    <a class="button"><i class="fa fa-search"></i></a>
+  </div>
+</div>
+<!-- 搜索空状态 -->
+<div class="search-blank" style="display: none" id="search-blank">
+  <div class="tags">
+    <a href="##">连衣裙</a>
+    <a href="##">女装</a>
+    <a href="##">高跟鞋</a>
+  </div>
+  <div class="clear-history">
+    <i class="icon-del"></i> 清除历史记录
+  </div>
+</div>
+<!-- 默认分类 -->
+<ul class="search-sort">
+  <li><a class="active" href="##">综合</a></li>
+  <li><a href="##">销量</a></li>
+  <li><a href="##">最新</a></li>
+  <li><a href="javascript:;" id="search">价格<i class="fa fa-angle-down"></i> </a></li>
+</ul>
+<div class="fix-modal" style="top: 238px; display: none" id="search-modal">
+  <div class="search-modal">
+    <div class="padding-24">
+      <div class="tags">
+        <a href="##">0-99</a>
+        <a href="##">100-159</a>
+        <a href="##">160-200</a>
+      </div>
+      <div class="form">
+        <label>
+          <input type="text" class="input-text" />
+        </label>
+        <label>
+          <span class="mt20">-</span>
+        </label>
+        <label>
+          <input type="text" class="input-text" />
+        </label>
+        <label><a class="btn btn-default">清空</a></label>
+        <label><a class="btn btn-danger cancel">确定</a></label>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- 搜索列表 大图模式 -->
+<ul class="search-item">
+  <li>
+    <a href="##">
+      <p class="img"><img src="images/img60.png" /></p>
+      <div class="info">
+        <div class="title">韩都衣舍  韩版2016春装新款女翠绿色连衣裙</div>
+        <div class="half-flex">
+          <span class="labels color-red">¥198.00</span>
+          <span class="labels right-labels color-999">132人评论</span>
+        </div>
+      </div>
+    </a>
+  </li>
+  <li>
+    <a href="##">
+      <p class="img"><img src="images/img61.png" /></p>
+      <div class="info">
+        <div class="title">韩都衣舍  韩版2016春装新款 女蓝色白点连衣裙</div>
+        <div class="half-flex">
+          <span class="labels color-red">¥188.00</span>
+          <span class="labels right-labels color-999">99人评论</span>
+        </div>
+      </div>
+    </a>
+  </li>
+  <li>
+    <a href="##">
+      <p class="img"><img src="images/img60.png" /></p>
+      <div class="info">
+        <div class="title">韩都衣舍  韩版2016春装新款女翠绿色连衣裙</div>
+        <div class="half-flex">
+          <span class="labels color-red">¥198.00</span>
+          <span class="labels right-labels color-999">132人评论</span>
+        </div>
+      </div>
+    </a>
+  </li>
+  <li>
+    <a href="##">
+      <p class="img"><img src="images/img61.png" /></p>
+      <div class="info">
+        <div class="title">韩都衣舍  韩版2016春装新款 女蓝色白点连衣裙</div>
+        <div class="half-flex">
+          <span class="labels color-red">¥188.00</span>
+          <span class="labels right-labels color-999">99人评论</span>
+        </div>
+      </div>
+    </a>
+  </li>
+  <li>
+    <a href="##">
+      <p class="img"><img src="images/img60.png" /></p>
+      <div class="info">
+        <div class="title">韩都衣舍  韩版2016春装新款女翠绿色连衣裙</div>
+        <div class="half-flex">
+          <span class="labels color-red">¥198.00</span>
+          <span class="labels right-labels color-999">132人评论</span>
+        </div>
+      </div>
+    </a>
+  </li>
+  <li>
+    <a href="##">
+      <p class="img"><img src="images/img61.png" /></p>
+      <div class="info">
+        <div class="title">韩都衣舍  韩版2016春装新款 女蓝色白点连衣裙</div>
+        <div class="half-flex">
+          <span class="labels color-red">¥188.00</span>
+          <span class="labels right-labels color-999">99人评论</span>
+        </div>
+      </div>
+    </a>
+  </li>
+  <li>
+    <a href="##">
+      <p class="img"><img src="images/img60.png" /></p>
+      <div class="info">
+        <div class="title">韩都衣舍  韩版2016春装新款女翠绿色连衣裙</div>
+        <div class="half-flex">
+          <span class="labels color-red">¥198.00</span>
+          <span class="labels right-labels color-999">132人评论</span>
+        </div>
+      </div>
+    </a>
+  </li>
+  <li>
+    <a href="##">
+      <p class="img"><img src="images/img61.png" /></p>
+      <div class="info">
+        <div class="title">韩都衣舍  韩版2016春装新款 女蓝色白点连衣裙</div>
+        <div class="half-flex">
+          <span class="labels color-red">¥188.00</span>
+          <span class="labels right-labels color-999">99人评论</span>
+        </div>
+      </div>
+    </a>
+  </li>
+  <li>
+    <a href="##">
+      <p class="img"><img src="images/img60.png" /></p>
+      <div class="info">
+        <div class="title">韩都衣舍  韩版2016春装新款女翠绿色连衣裙</div>
+        <div class="half-flex">
+          <span class="labels color-red">¥198.00</span>
+          <span class="labels right-labels color-999">132人评论</span>
+        </div>
+      </div>
+    </a>
+  </li>
+  <li>
+    <a href="##">
+      <p class="img"><img src="images/img61.png" /></p>
+      <div class="info">
+        <div class="title">韩都衣舍  韩版2016春装新款 女蓝色白点连衣裙</div>
+        <div class="half-flex">
+          <span class="labels color-red">¥188.00</span>
+          <span class="labels right-labels color-999">99人评论</span>
+        </div>
+      </div>
+    </a>
+  </li>
+</ul>
+<a class="icon-serve" href="##">客服</a>
+<footer class="nav-footer">
+  <ul class="web-nav">
+    <li>
+      <a href="index.html" class="active">
+        <p><i class="icon-home"></i></p>
+        <p>首页</p>
+      </a>
+    </li>
+    <li>
+      <a href="index.html">
+        <p><i class="icon-cv"></i></p>
+        <p>CV家人</p>
+      </a>
+    </li>
+    <li>
+      <a href="index.html">
+        <p><i class="icon-cart"></i></p>
+        <p>购物车</p>
+      </a>
+    </li>
+    <li>
+      <a href="index.html">
+        <p><i class="icon-user"></i></p>
+        <p>我的集荟</p>
+      </a>
+    </li>
+  </ul>
+</footer>
+<!-- build:js(.) scripts/vendor.js -->
+<!-- bower:js -->
+<script src="/bower_components/jquery/dist/jquery.js"></script>
+<script src="/bower_components/bootstrap-select/dist/js/bootstrap-select.js"></script>
+<script src="/bower_components/Swiper/dist/js/swiper.js"></script>
+<script src="/bower_components/jquery.spinner/dist/js/jquery.spinner.js"></script>
+<script src="/bower_components/jquery.pin/jquery.pin.js"></script>
+<!-- endbower -->
+<!-- endbuild -->
+<!-- build:js(.) scripts/plugins.js -->
+<script src="/bower_components/bootstrap/js/affix.js"></script>
+<script src="/bower_components/bootstrap/js/alert.js"></script>
+<script src="/bower_components/bootstrap/js/dropdown.js"></script>
+<script src="/bower_components/bootstrap/js/tooltip.js"></script>
+<script src="/bower_components/bootstrap/js/modal.js"></script>
+<script src="/bower_components/bootstrap/js/transition.js"></script>
+<script src="/bower_components/bootstrap/js/button.js"></script>
+<script src="/bower_components/bootstrap/js/popover.js"></script>
+<script src="/bower_components/bootstrap/js/carousel.js"></script>
+<script src="/bower_components/bootstrap/js/scrollspy.js"></script>
+<script src="/bower_components/bootstrap/js/collapse.js"></script>
+<script src="/bower_components/bootstrap/js/tab.js"></script>
+<!-- endbuild -->
+<!-- build:js scripts/index.js -->
+<script type="text/javascript">
+  $(function(){
+    $('#search').on('click',function(){
+      $("#search-modal").show();
+    });
+    $(".cancel").on('click',function(){
+      $(this).parents('.fix-modal').hide();
+    })
+  })
+</script>
+</body>
+
+</html>

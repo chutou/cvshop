@@ -2,20 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="713a0983-c8e1-44f4-ac88-b2257d1303f2" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/commonts.html" afterPath="$PROJECT_DIR$/app/user-center/commonts.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/goods.html" afterPath="$PROJECT_DIR$/app/user-center/goods.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/help.html" afterPath="$PROJECT_DIR$/app/user-center/help.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/my-order.html" afterPath="$PROJECT_DIR$/app/user-center/my-order.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/payment.html" afterPath="$PROJECT_DIR$/app/user-center/payment.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/recharge-success.html" afterPath="$PROJECT_DIR$/app/user-center/recharge-success.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/recharge.html" afterPath="$PROJECT_DIR$/app/user-center/recharge.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/less/agent.less" afterPath="$PROJECT_DIR$/app/styles/less/agent.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/less/common.less" afterPath="$PROJECT_DIR$/app/styles/less/common.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/less/index.less" afterPath="$PROJECT_DIR$/app/styles/less/index.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/main.css" afterPath="$PROJECT_DIR$/app/styles/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/main.less" afterPath="$PROJECT_DIR$/app/styles/main.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/less/mixins.less" afterPath="$PROJECT_DIR$/app/styles/less/mixins.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/less/my-order.less" afterPath="$PROJECT_DIR$/app/styles/less/my-order.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="cvshop.iws" />
@@ -37,37 +28,56 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="order.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/styles/less/order.less">
+      <file leaf-file-name="detail.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/detail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.54902">
-              <caret line="73" column="12" selection-start-line="73" selection-start-column="12" selection-end-line="73" selection-end-column="12" />
+            <state vertical-scroll-proportion="-2.4487178">
+              <caret line="176" column="29" selection-start-line="176" selection-start-column="29" selection-end-line="176" selection-end-column="29" />
               <folding>
-                <element signature="e#312#616#0" expanded="false" />
+                <element signature="n#li#0;n#ul#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="shopcart.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/shopcart.html">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.709607">
-              <caret line="197" column="50" selection-start-line="197" selection-start-column="50" selection-end-line="197" selection-end-column="50" />
+            <state vertical-scroll-proportion="0.22925764">
+              <caret line="7" column="72" selection-start-line="7" selection-start-column="72" selection-end-line="7" selection-end-column="72" />
               <folding>
-                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#ul#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#ul#2;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="shopcart.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/styles/less/shopcart.less">
+      <file leaf-file-name="common.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/styles/less/common.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.0588236">
-              <caret line="46" column="21" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
+            <state vertical-scroll-proportion="-6.3333335">
+              <caret line="135" column="24" selection-start-line="135" selection-start-column="24" selection-end-line="135" selection-end-column="24" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/styles/less/index.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.509804">
+              <caret line="174" column="22" selection-start-line="174" selection-start-column="22" selection-end-line="176" selection-end-column="32" />
+              <folding>
+                <element signature="e#10209#10548#0" expanded="false" />
+                <element signature="e#12001#12572#0" expanded="false" />
+                <element signature="e#12585#12976#0" expanded="false" />
+                <element signature="e#12990#13645#0" expanded="false" />
+                <element signature="e#14046#14341#0" expanded="false" />
+                <element signature="e#14387#15009#0" expanded="false" />
+                <element signature="e#15193#15639#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -80,12 +90,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/agent-apply-step4.html" />
-        <option value="$PROJECT_DIR$/app/recharge-success.html" />
-        <option value="$PROJECT_DIR$/app/login.html" />
-        <option value="$PROJECT_DIR$/app/styles/less/mixins.less" />
-        <option value="$PROJECT_DIR$/app/user-center/help.html" />
-        <option value="$PROJECT_DIR$/app/user-center/nickname.html" />
         <option value="$PROJECT_DIR$/app/user-center/telephone.html" />
         <option value="$PROJECT_DIR$/app/user-center/webchat.html" />
         <option value="$PROJECT_DIR$/app/user-center/qq.html" />
@@ -107,12 +111,10 @@
         <option value="$PROJECT_DIR$/app/user-center/recharge.html" />
         <option value="$PROJECT_DIR$/app/user-center/offline-payment.html" />
         <option value="$PROJECT_DIR$/app/user-center/offline-payment-success.html" />
-        <option value="$PROJECT_DIR$/app/styles/less/index.less" />
         <option value="$PROJECT_DIR$/app/user-center/agent.html" />
         <option value="$PROJECT_DIR$/app/user-center/my-recommend.html" />
         <option value="$PROJECT_DIR$/app/user-center/logistics.html" />
         <option value="$PROJECT_DIR$/app/user-center/add-address.html" />
-        <option value="$PROJECT_DIR$/app/styles/less/common.less" />
         <option value="$PROJECT_DIR$/app/user-center/my-address.html" />
         <option value="$PROJECT_DIR$/app/styles/less/user-center.less" />
         <option value="$PROJECT_DIR$/app/submit-order.html" />
@@ -131,6 +133,14 @@
         <option value="$PROJECT_DIR$/app/styles/less/order.less" />
         <option value="$PROJECT_DIR$/app/styles/less/shopcart.less" />
         <option value="$PROJECT_DIR$/app/shopcart.html" />
+        <option value="$PROJECT_DIR$/app/classify.html" />
+        <option value="$PROJECT_DIR$/.editorconfig" />
+        <option value="$PROJECT_DIR$/app/search.html" />
+        <option value="$PROJECT_DIR$/app/search2.html" />
+        <option value="$PROJECT_DIR$/app/styles/less/common.less" />
+        <option value="$PROJECT_DIR$/app/detail.html" />
+        <option value="$PROJECT_DIR$/app/styles/less/index.less" />
+        <option value="$PROJECT_DIR$/app/index.html" />
       </list>
     </option>
   </component>
@@ -220,28 +230,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="styles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cvshop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cvshop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="styles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="less" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -369,65 +357,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/user-center/nickname.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.941176">
-          <caret line="100" column="0" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/user-center/telephone.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.941176">
-          <caret line="100" column="0" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/user-center/webchat.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.019969279">
-          <caret line="36" column="80" selection-start-line="36" selection-start-column="80" selection-end-line="36" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/user-center/mail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.06912442">
-          <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/user-center/qq.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.115207374">
-          <caret line="38" column="14" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/images/img-agent1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/images/icon-qu.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.352941">
-          <caret line="240" column="4" selection-start-line="240" selection-start-column="4" selection-end-line="240" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/user-center/my-order.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.29411766">
-          <caret line="45" column="29" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/user-center/goods.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.29411766">
@@ -559,14 +488,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/less/common.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6032907">
-          <caret line="134" column="24" selection-start-line="134" selection-start-column="24" selection-end-line="134" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/user-center/agent.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.40402195">
@@ -585,22 +506,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-12.541667">
           <caret line="72" column="43" selection-start-line="72" selection-start-column="43" selection-end-line="72" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/less/user-center.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.291666">
-          <caret line="333" column="30" selection-start-line="333" selection-start-column="30" selection-end-line="333" selection-end-column="30" />
-          <folding>
-            <element signature="e#25#556#0" expanded="false" />
-            <element signature="e#569#766#0" expanded="false" />
-            <element signature="e#779#1077#0" expanded="false" />
-            <element signature="e#1091#1451#0" expanded="false" />
-            <element signature="e#2631#3528#0" expanded="false" />
-            <element signature="e#4854#5205#0" expanded="false" />
-            <element signature="e#5423#5659#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -668,14 +573,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/trade-detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5418251">
-          <caret line="83" column="48" selection-start-line="83" selection-start-column="48" selection-end-line="83" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/styles/less/my-order.less">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-12.6470585">
@@ -695,14 +592,6 @@
             <element signature="e#186#229#0" expanded="false" />
             <element signature="e#854#876#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/less/index.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.6666667">
-          <caret line="395" column="5" selection-start-line="387" selection-start-column="4" selection-end-line="395" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -727,15 +616,86 @@
         <state vertical-scroll-proportion="0.2450658">
           <caret line="96" column="4" selection-start-line="96" selection-start-column="4" selection-end-line="108" selection-end-column="10" />
           <folding>
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/shopcart.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.5490196">
+          <caret line="184" column="19" selection-start-line="184" selection-start-column="19" selection-end-line="184" selection-end-column="19" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/images/icon-del.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.editorconfig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34232366">
+          <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/images/img50.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/images/img51.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/search.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.75328946">
+          <caret line="98" column="9" selection-start-line="98" selection-start-column="9" selection-end-line="98" selection-end-column="9" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/classify.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.027960526">
+          <caret line="26" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="314" selection-end-column="0" />
+          <folding>
+            <element signature="n#ul#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/less/user-center.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7563805">
+          <caret line="402" column="0" selection-start-line="402" selection-start-column="0" selection-end-line="433" selection-end-column="1" />
+          <folding>
+            <element signature="e#25#556#0" expanded="false" />
+            <element signature="e#569#766#0" expanded="false" />
+            <element signature="e#779#1077#0" expanded="false" />
+            <element signature="e#1091#1451#0" expanded="false" />
+            <element signature="e#2631#3528#0" expanded="false" />
+            <element signature="e#4854#5205#0" expanded="false" />
+            <element signature="e#5423#5659#0" expanded="false" />
+            <element signature="e#6994#7402#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/styles/less/shopcart.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.0588236">
+        <state vertical-scroll-proportion="0.03275109">
           <caret line="46" column="21" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
           <folding />
         </state>
@@ -743,21 +703,78 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/styles/less/order.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.54902">
-          <caret line="73" column="12" selection-start-line="73" selection-start-column="12" selection-end-line="73" selection-end-column="12" />
+        <state vertical-scroll-proportion="0.5290023">
+          <caret line="89" column="18" selection-start-line="89" selection-start-column="18" selection-end-line="89" selection-end-column="18" />
           <folding>
             <element signature="e#312#616#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/shopcart.html">
+    <entry file="file://$PROJECT_DIR$/app/search2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.709607">
-          <caret line="197" column="50" selection-start-line="197" selection-start-column="50" selection-end-line="197" selection-end-column="50" />
+        <state vertical-scroll-proportion="0.63973796">
+          <caret line="56" column="27" selection-start-line="56" selection-start-column="27" selection-end-line="56" selection-end-column="27" />
           <folding>
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#li#8;n#ul#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#li#9;n#ul#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/trade-detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6069869">
+          <caret line="165" column="12" selection-start-line="165" selection-start-column="12" selection-end-line="165" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/less/common.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.3333335">
+          <caret line="135" column="24" selection-start-line="135" selection-start-column="24" selection-end-line="135" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.4487178">
+          <caret line="176" column="29" selection-start-line="176" selection-start-column="29" selection-end-line="176" selection-end-column="29" />
+          <folding>
+            <element signature="n#li#0;n#ul#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/less/index.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.509804">
+          <caret line="174" column="22" selection-start-line="174" selection-start-column="22" selection-end-line="176" selection-end-column="32" />
+          <folding>
+            <element signature="e#10209#10548#0" expanded="false" />
+            <element signature="e#12001#12572#0" expanded="false" />
+            <element signature="e#12585#12976#0" expanded="false" />
+            <element signature="e#12990#13645#0" expanded="false" />
+            <element signature="e#14046#14341#0" expanded="false" />
+            <element signature="e#14387#15009#0" expanded="false" />
+            <element signature="e#15193#15639#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22925764">
+          <caret line="7" column="72" selection-start-line="7" selection-start-column="72" selection-end-line="7" selection-end-column="72" />
+          <folding>
+            <element signature="n#ul#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#ul#2;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>

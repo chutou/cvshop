@@ -1,0 +1,171 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>搜索</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+  <!-- build:css(.) styles/vendor.css -->
+  <!-- bower:css -->
+  <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.css" />
+  <link rel="stylesheet" href="/bower_components/bootstrap-select/dist/css/bootstrap-select.css" />
+  <link rel="stylesheet" href="/bower_components/Swiper/dist/css/swiper.css" />
+  <!-- endbower -->
+  <!-- endbuild -->
+  <!-- build:css(.tmp) styles/main.css -->
+  <link rel="stylesheet" href="/bower_components/font-awesome/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="styles/main.css">
+  <!-- endbuild -->
+  <!-- build:js scripts/vendor/modernizr.js -->
+  <script src="/bower_components/modernizr/modernizr.js"></script>
+  <!-- endbuild -->
+</head>
+
+<body class="index bgc-fff">
+<header class="header-bar">
+  <a class="icon-arrow-left">返回</a>
+  <a class="text" href="##">关闭</a>
+  <div class="title">云集荟</div>
+</header>
+<div class="search-container">
+  <!--搜索栏-->
+  <div class="search-box">
+    <input class="text" placeholder="请输入你要搜索的关键字" />
+    <a class="button"><i class="fa fa-search"></i></a>
+  </div>
+</div>
+<!-- 搜索空状态 -->
+<div class="search-blank" style="display: none" id="search-blank">
+  <div class="tags">
+    <a href="##">连衣裙</a>
+    <a href="##">女装</a>
+    <a href="##">高跟鞋</a>
+  </div>
+  <div class="clear-history">
+    <i class="icon-del"></i> 清除历史记录
+  </div>
+</div>
+<!-- 默认分类 -->
+<div class="padding-24">
+  <ul class="search-classify">
+    <li>
+      <a href="##">
+        <div class="img"><img src="images/img50.png" /></div>
+        <div class="title">
+          <div class="text">服装</div>
+          <div class="sub-text">女装/男装/内衣</div>
+        </div>
+      </a>
+    </li>
+    <li>
+      <a href="##">
+        <div class="img"><img src="images/img51.png" /></div>
+        <div class="title">
+          <div class="text">精品家电</div>
+          <div class="sub-text">厨房电器/生活电器</div>
+        </div>
+      </a>
+    </li>
+    <li>
+      <a href="##">
+        <div class="img"><img src="images/img52.png" /></div>
+        <div class="title">
+          <div class="text">箱包户外</div>
+          <div class="sub-text">潮流女包/精品男包</div>
+        </div>
+      </a>
+    </li>
+    <li>
+      <a href="##">
+        <div class="img"><img src="images/img53.png" /></div>
+        <div class="title">
+          <div class="text">护肤护理</div>
+          <div class="sub-text">面部护肤/香水彩妆</div>
+        </div>
+      </a>
+    </li>
+    <li>
+      <a href="##">
+        <div class="img"><img src="images/img54.png" /></div>
+        <div class="title">
+          <div class="text">钻石珠宝</div>
+          <div class="sub-text">时尚饰品/珍珠钻石</div>
+        </div>
+      </a>
+    </li>
+    <li>
+      <a href="##">
+        <div class="img"><img src="images/img55.png" /></div>
+        <div class="title">
+          <div class="text">鞋靴</div>
+          <div class="sub-text">商务男鞋/时尚女靴</div>
+        </div>
+      </a>
+    </li>
+  </ul>
+</div>
+<a class="icon-serve" href="##">客服</a>
+<footer class="nav-footer">
+  <ul class="web-nav">
+    <li>
+      <a href="index.html" class="active">
+        <p><i class="icon-home"></i></p>
+        <p>首页</p>
+      </a>
+    </li>
+    <li>
+      <a href="index.html">
+        <p><i class="icon-cv"></i></p>
+        <p>CV家人</p>
+      </a>
+    </li>
+    <li>
+      <a href="index.html">
+        <p><i class="icon-cart"></i></p>
+        <p>购物车</p>
+      </a>
+    </li>
+    <li>
+      <a href="index.html">
+        <p><i class="icon-user"></i></p>
+        <p>我的集荟</p>
+      </a>
+    </li>
+  </ul>
+</footer>
+<!-- build:js(.) scripts/vendor.js -->
+<!-- bower:js -->
+<script src="/bower_components/jquery/dist/jquery.js"></script>
+<script src="/bower_components/bootstrap-select/dist/js/bootstrap-select.js"></script>
+<script src="/bower_components/Swiper/dist/js/swiper.js"></script>
+<script src="/bower_components/jquery.spinner/dist/js/jquery.spinner.js"></script>
+<script src="/bower_components/jquery.pin/jquery.pin.js"></script>
+<!-- endbower -->
+<!-- endbuild -->
+<!-- build:js(.) scripts/plugins.js -->
+<script src="/bower_components/bootstrap/js/affix.js"></script>
+<script src="/bower_components/bootstrap/js/alert.js"></script>
+<script src="/bower_components/bootstrap/js/dropdown.js"></script>
+<script src="/bower_components/bootstrap/js/tooltip.js"></script>
+<script src="/bower_components/bootstrap/js/modal.js"></script>
+<script src="/bower_components/bootstrap/js/transition.js"></script>
+<script src="/bower_components/bootstrap/js/button.js"></script>
+<script src="/bower_components/bootstrap/js/popover.js"></script>
+<script src="/bower_components/bootstrap/js/carousel.js"></script>
+<script src="/bower_components/bootstrap/js/scrollspy.js"></script>
+<script src="/bower_components/bootstrap/js/collapse.js"></script>
+<script src="/bower_components/bootstrap/js/tab.js"></script>
+<!-- endbuild -->
+<!-- build:js scripts/index.js -->
+<script type="text/javascript">
+  $(function(){
+
+  })
+</script>
+</body>
+
+</html>
