@@ -882,6 +882,7 @@ body a:hover {
   font-size: 24px;
   padding-left: 30px;
   border-radius: 5px;
+  background-color: #fff;
 }
 .index .search-box .flex .text {
   display: block;
